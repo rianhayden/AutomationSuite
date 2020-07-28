@@ -1,0 +1,24 @@
+login,pass,orgName,country,postCode,addrLine1,addrLine2,addrLine3,addrLine4,contactName,contactNum,contactEmail,delOptions,quantity,weight,customs
+4982L9,Passw0rd,roitoroi,IRELAND,R35V277,9 Furlong Grove,,Tullamore,Offaly,Rian Hayden,838932198,dpd.olp@gmail.com,overnight,1,1,no
+4982L9,Passw0rd,roitoroitimed,IRELAND,R35V275,128 Arden Vale,,Tullamore,Offaly,Rian Hayden,838932198,dpd.olp@gmail.com,timed,1,1,no
+4982L9,Passw0rd,roitoroisat,IRELAND,K36Y006,10 Kings Hall,Waterside,Malahide,Dublin,Rian Hayden,838932198,dpd.olp@gmail.com,saturday,1,1,no
+4982L9,Passw0rd,roitoroicod,IRELAND,A96R2X2,13 Johnstown Road,Cabinteely,Glenageary,Dublin,Rian Hayden,838932198,dpd.olp@gmail.com,cod,1,1,no
+4982L9,Passw0rd,roitoroiretrec,IRELAND,F91HT99,Apartment 13,,John Street,Sligo,Rian Hayden,838932198,dpd.olp@gmail.com,retrec,1,1,no
+4982L9,Passw0rd,roitoroiswappit,IRELAND,F92NC56,13 Johnstons Caravan Park,Marble Hill,Portnablagh,Donegal,Rian Hayden,838932198,dpd.olp@gmail.com,swappit,1,1,no
+4982L9,Passw0rd,uk11parcelsbrexiton,UK,E149FA,35 Harbour Exchange Square,,Isle of Dogs,London ,Rian Hayden,838932198,dpd.olp@gmail.com,air,11,1,no
+4982L9,Passw0rd,roitonibrexiton,NORTHERN IRELAND,BT941GJ,35 Main St,,Enniskillen,Fermanagh,Rian Hayden,838932198,dpd.olp@gmail.com,overnight,1,5,no
+4982L9,Passw0rd,roitonibrexitontimed,NORTHERN IRELAND,BT797EX,94 Old Mountfield Rd,,Omagh,Tyrone,Rian Hayden,838932198,dpd.olp@gmail.com,timed,1,4,no
+4982L9,Passw0rd,roitonibrexitonsat,NORTHERN IRELAND,BT799LF,157 Loughmacrory Rd,Loughmacrory,Omagh,Tyrone,Rian Hayden,838932198,dpd.olp@gmail.com,saturday,1,4,no
+4982L9,Passw0rd,roitonibrexitoncod,NORTHERN IRELAND,BT799BU,8 Devesky Rd,Carrickmore,Omagh,Tyrone,Rian Hayden,838932198,dpd.olp@gmail.com,cod,1,4,no
+4982L9,Passw0rd,roitonibrexitonretrec,NORTHERN IRELAND,BT319AQ,7 Dublin Rd,,Castlewellan,Down,Rian Hayden,838932198,dpd.olp@gmail.com,retrec,1,4,no
+4982L9,Passw0rd,roitonibrexitonswappit,NORTHERN IRELAND,BT330NS,45 Dromara Rd,,Newcastle,Down,Rian Hayden,838932198,dpd.olp@gmail.com,swappit,1,4,no
+4982L9,Passw0rd,roitoukbrexiton,UK,NE14XQ,The Gate,,Newgate St,Newcastle upon Tyne,Rian Hayden,838932198,dpd.olp@gmail.com,overnight,1,3,no
+4982L9,Passw0rd,euroad,FRANCE,75004,MBM Paris,,22 Rue du Temple,Paris,Rian Hayden,838932198,dpd.olp@gmail.com,road,1,4,no
+4982L9,Passw0rd,euair,SPAIN,45224,Restaurante Caballete,,Seseï¿½a ,Toledo ,Rian Hayden,838932198,dpd.olp@gmail.com,air,1,2,no
+4982L9,Passw0rd,euspecair,SWITZERLAND,3011,Amthausgasse 1,,Amthausgasse 1,Bern,Rian Hayden,838932198,dpd.olp@gmail.com,,1,4,yes
+4982L9,Passw0rd,euspecnotaccepted,SWITZERLAND,1950,TCS Section Valais,,Rue des Cèdres 3,Sion,Rian Hayden,838932198,dpd.olp@gmail.com,,1,4,yes
+4982L9,Passw0rd,euspecclassic,SWITZERLAND,3966,Acoma Andenmatten Sa,,Rue des Bouchià 42,Chalais,Rian Hayden,838932198,dpd.olp@gmail.com,,1,4,yes
+4982L9,Passw0rd,rownotaccepted,AUSTRALIA,5734,Witjira National Park,,Stuart Hwy,Oodnadatta SA,Rian Hayden,838932198,dpd.olp@gmail.com,,1,4,yes
+4982L9,Passw0rd,rownormal,TURKEY,38090,Hunat,,Sivas Blv 24/1,Melikgazi/Kayseri,Rian Hayden,838932198,dpd.olp@gmail.com,,1,4,yes
+4982L9,Passw0rd,rowyeslicensing,AUSTRALIA,3065,The Old Bar,,74-76 Johnston St,Fitzroy VIC,Rian Hayden,838932198,dpd.olp@gmail.com,,1,4,yes
+4982L9,Passw0rd,rownolicensing,AUSTRALIA,2000,3 Wise Monkeys,,555 George St,Sydney NSW,Rian Hayden,838932198,dpd.olp@gmail.com,,1,4,yes

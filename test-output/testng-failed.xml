@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default Suite]">
+  <test thread-count="5" name="First_automation(failed)">
+    <classes>
+      <class name="Create_Label_Test">
+        <methods>
+          <include name="tearDown"/>
+          <include name="createLabelAndValidate" invocation-numbers="2"/>
+        </methods>
+      </class> <!-- Create_Label_Test -->
+    </classes>
+  </test> <!-- First_automation(failed) -->
+</suite> <!-- Failed suite [Default Suite] -->
