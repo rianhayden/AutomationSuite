@@ -6,7 +6,7 @@
       <class name="Create_Label_Test">
         <methods>
           <include name="tearDown"/>
-          <include name="createLabelAndValidate" invocation-numbers="2"/>
+          <include name="createLabelAndValidate" invocation-numbers="0"/>
         </methods>
       </class> <!-- Create_Label_Test -->
     </classes>

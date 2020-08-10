@@ -57,7 +57,7 @@ public class LoginPage {
     public DashboardPage loginCheck (WebDriver driver,TestData testData) throws InterruptedException {
         WebDriverWait wait = new WebDriverWait(driver,30);
         wait.until(ExpectedConditions.elementToBeClickable(username));
-        driver.manage().window().maximize();
+        //driver.manage().window().maximize();
         driver.switchTo().defaultContent();
         username.click();
         username.sendKeys(testData.getLogin());

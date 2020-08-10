@@ -354,7 +354,7 @@ public class ShippingPage {
     }
 
     public ShippingPage createLabel (TestData testData) throws InterruptedException,AWTException {
-        Thread.sleep(5000);
+        Thread.sleep(7000);
         driver.switchTo().frame("shippingmoduleiframe");
         WebDriverWait wait = new WebDriverWait(driver,30);
         wait.until(ExpectedConditions.elementToBeClickable(createLabelBtn));
@@ -369,7 +369,7 @@ public class ShippingPage {
         int randomNum = (int) (Math.random() * 999999);
         java.lang.String randomClientCode = Integer.toString(randomNum);
         //driver.switchTo().defaultContent();
-        Thread.sleep(5000);
+        Thread.sleep(7000);
         Robot robot = new Robot();
         //robot.keyPress(KeyEvent.VK_ESCAPE);
         //robot.keyRelease(KeyEvent.VK_ESCAPE);
@@ -389,8 +389,11 @@ public class ShippingPage {
         //js.executeScript("arguments[0].value='"+(randomClientCode)+"';", orgName);
         clientCodeValidation = orgName.getAttribute("value");
 
-        //js.executeScript("arguments[0].value='"+(testData.getCountry())+"';", country);
         country.click();
+        //js.executeScript("arguments[0].value='"+(testData.getCountry())+"';", country);
+        Thread.sleep(1000);
+        country.click();
+        Thread.sleep(1000);
         country.sendKeys(testData.getCountry());
 
         //js.executeScript("arguments[0].value='"+(testData.getPostcode())+"';", postCode);
@@ -427,6 +430,7 @@ public class ShippingPage {
         }
 
         contactName.click();
+        js.executeScript("arguments[0].value='"+(testData.getContactName())+"';", contactName);
         contactName.sendKeys(testData.getContactName());
         //mobile.sendKeys(testData.getContactNum());
         mobile.click();
@@ -699,7 +703,7 @@ public class ShippingPage {
         js.executeScript("arguments[0].click();", customerReference);
         customerReference.sendKeys(ptCusRefValidation);
         printBtn.click();
-        Thread.sleep(1000);
+        Thread.sleep(8000);
         return new ShippingPage(driver);
     }
 

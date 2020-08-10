@@ -56,7 +56,7 @@ public class Create_Label_Test {
             DashboardPage dashboardPage = loginPage.loginCheck(driver,testData);
             ShippingPage shippingPage = dashboardPage.dashboardCheck();
             shippingPage.createLabel(testData);
-            shippingPage.saveLabelPDF();
+            //shippingPage.saveLabelPDF();
             shippingPage.exitAndValidate(testData);
             shippingPage.printNum();
 

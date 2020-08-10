@@ -9,44 +9,10 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="7">Default Suite</th></tr>
-<tr><td><a href="#t0">First_automation</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">81,977</td><td></td><td></td></tr>
+<tr><td><a href="#t0">First_automation</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">93,174</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">First_automation &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">Create_Label_Test</td><td><a href="#m0">createLabelAndValidate</a></td><td rowspan="1">1595261756855</td><td rowspan="1">81847</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Default Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">First_automation &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">Create_Label_Test</td><td><a href="#m0">createLabelAndValidate</a></td><td rowspan="1">1597057534236</td><td rowspan="1">93093</td></tr></tbody>
 </table>
-<h2>First_automation</h2><h3 id="m0">Create_Label_Test#createLabelAndValidate</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.company.PageObjects.TestData@51c8530f</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: Proxy element for: DefaultElementLocator &apos;By.name: txtUsername&apos; (tried for 30 second(s) with 500 MILLISECONDS interval)
-	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:80)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:232)
-	at com.company.PageObjects.LoginPage.loginCheck(LoginPage.java:59)
-	at Create_Label_Test.createLabelAndValidate(Create_Label_Test.java:56)
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: *[name=&apos;txtUsername&apos;]
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
-Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
-System info: host: &apos;HO-LTP-19622&apos;, ip: &apos;192.168.1.8&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_162&apos;
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities [{moz:profile=C:\Users\rian.hayden\AppData\Local\Temp\rust_mozprofile.y3PHkxj5Q4dw, rotatable=false, moz:geckodriverVersion=0.24.0, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, unhandledPromptBehavior=dismiss and notify, strictFileInteractability=false, moz:headless=false, platform=ANY, moz:accessibilityChecks=false, moz:useNonSpecCompliantPointerOrigin=false, acceptInsecureCerts=false, browserVersion=73.0.1, moz:shutdownTimeout=60000.0, platformVersion=10.0, moz:processID=39340.0, browserName=firefox, moz:buildID=20200217142647, javascriptEnabled=true, platformName=windows, setWindowRect=true, moz:webdriverClick=true}]
-Session ID: 69605b63-74f3-45e0-bc07-ce03b536b3be
-*** Element info: {Using=name, value=txtUsername}
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
-	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:485)
-	at org.openqa.selenium.By$ByName.findElement(By.java:303)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at com.sun.proxy.$Proxy6.isDisplayed(Unknown Source)
-	at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:302)
-	at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:288)
-	at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:285)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:673)
-	at org.openqa.selenium.support.ui.ExpectedConditions$23.apply(ExpectedConditions.java:669)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:209)
-	... 26 more
-... Removed 27 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>First_automation</h2><h3 id="m0">Create_Label_Test#createLabelAndValidate</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>com.company.PageObjects.TestData@51c8530f</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>
